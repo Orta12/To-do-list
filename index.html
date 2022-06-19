@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="images/to-do-list.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>To-do lists ver 2.0.1</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Blaka&family=Charis+SIL&family=Dosis:wght@200&family=Josefin+Sans:wght@300;400&family=Montserrat:ital,wght@0,200;1,200&family=Open+Sans:wght@300;400;500&family=Patrick+Hand&family=Roboto+Condensed&family=Roboto+Mono:wght@300;400&family=Ubuntu+Mono&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <h1 class="heading1">To-do lists</h1>
+
+    <p class="para1">Benjamin Franklin, the godfather of the to do list? Benjamin Franklin is a great example of someone
+        known for using lists to encourage his own self-improvement. He famously detailed a thirteen-week plan to
+        practice important virtues such as cleanliness, temperance, etc. Each day he <u>tracked his progress on a
+            chart.</u>
+    </p>
+
+    <label class="lable1" for="item">Your_Item</label><br>
+    <input type="text" name="input1" id="item" class="input1">
+    <button class="bt-1" id="add" onclick="add()">Add</button>
+    <button class="bt-1" id="delete" onclick="remove()">Delete</button>
+    <button class="bt-1" id="latest" onclick="latest()">Latest</button>
+    <label for="Lists" class="lable3">Lists - </label>
+
+
+    <div class="todo">
+        <ul id="box"></ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
