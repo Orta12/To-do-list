@@ -20,12 +20,14 @@ Https://Ortatodos.Netlify.App/
 
 
 ```
- Click The Given Link
+Click The Given Link
  
 Add Your Daily Task 
 Click The Add Button For Adding New Task
 Click The Delete Button To Delete A Task
 Click The Latest Button To Rank Your Task
+
+And you are done
 ```
 
 
